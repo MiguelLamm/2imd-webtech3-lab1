@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.createDiv{
+    height: 50vh;
+    width: 100vw;
+    padding: 100px;
+    overflow: hidden;
+    filter: grayscale(0.5);
+    transition: 0.2s ease;
+}
+
+.createDiv:hover{
+    filter: grayscale(0);
+}
+
+.createDiv:nth-child(2){
+    background-image: url(../img/benjamin.jpg);
+}
+
+.createDiv:nth-child(1){
+    background-image: url(../img/miguel.png);
+    background-position: center -1200px;
+}
+
+.background{
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    opacity: 0.8;
+}
+article{
+    position: relative;
+    top: -190px;
+    left: 20px;
+}
+
+h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: red;
+}
+
+p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+h2{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
